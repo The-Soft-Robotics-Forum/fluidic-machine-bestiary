@@ -1,14 +1,16 @@
 # fluidic-machine-bestiary
 The Bestiary of Fluidic Machines is an online repository of reconfigurable fluidic building blocks, which can be used to readily build and deploy entirely new types of fluidic machines, including bio-inspired, monolithically-printed soft robots.
 
-The goal of the project is to take the pace of development in soft robotics to another level. Instead of starting from scratch, designers have access to a centralised repository of component models in a standardised file format. This format encourages knowledge-sharing, and allows to be creative within the process, instead of recreating, and trying to solve the same problems.
+The goal of the project is to take the pace of development in soft robotics to another level. Instead of starting from scratch, designers have access to a centralised repository of component models in a standardised file format. This format encourages knowledge-sharing, and allows to be creative within the process, instead of recreating the same results, and trying to solve the same problems.
 
-As the bestiary evolves, it will include entire printable monolothic robots, as well as individual control modules, sensors, and actuators. 
+As the bestiary evolves, it will include entire printable monolothic robots, as well as individual constituent modules, including control logic blocks, sensors, and actuators.
 
-We encourage others to submit their components to the platform and help turn it into a thriving marketplace of ideas. By contributing, you are also helping to shape the future of democratised research.
+We encourage others to submit their components to the platform and help turn it into a thriving marketplace of ideas, and a model for the future of democratised research.
 
 # How to use
-The repository has been subdivided into folders for each component type (actuators, control components, etc.). Each folder includes .step files for the modules, which you can load into your CAD software of choice, and use to build new machines. 
+The repository has been subdivided into folders for each component type (actuators, control components, etc.). Each folder includes .step files for the modules, which you can load into your CAD software of choice, and use to build entirely new machines. You can also import .step directly into your slicing software of choice (instead of .stl).
+
+The current fluidic connection standard is 2mm x 2mm square channels, due to its relative ease of manufacturing on FDM machines. Do not worry if your models do not meet this standard; it is likely to evolve in the future to cater to the community's needs.
 
 # How to contribute
 Complete beginner guide for forking github repo and contributing. If you have prior experience, skip to [Step 6](#Step-6:-Pull-Request)

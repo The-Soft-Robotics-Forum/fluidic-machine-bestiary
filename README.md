@@ -36,7 +36,7 @@ Complete beginner guide for forking github repo and contributing. If you have pr
 2. go to your fork on the github website and select compare and pull request
 3. fill in the pull request details 
 ### Step 6: Pull Request
-- Provide a clear and concise title for the pull request
-- include a detailed description of the part changes you have made and why
-    - if you have introduced new parts make sure the naming is consistent with the in place naming scheme
-    - if you have introduced new hardware please provide a BOM for this
+- Provide a clear and concise title for the pull request.
+- Include a detailed description of the components you are contributing.
+- If possible, try to standardise the outgoing fluidic connections of the models to 2mm x 2mm, to make it easier for others to reuse the models, and interconnect with the other modules in this library.
+    - Do not worry if your design does not meet this standard; it is likely to evolve in the future.

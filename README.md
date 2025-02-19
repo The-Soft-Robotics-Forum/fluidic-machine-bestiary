@@ -43,6 +43,7 @@ Complete beginner guide for forking github repo and contributing. If you have pr
 - Rename your parts according to the [part naming scheme](part-naming-scheme), and list who (or what company/entity) should be listed as the part author in the part index (for example, Gepner et al. 2025, to indicate which paper the part is from).
 - If possible, try to standardise the outgoing fluidic connections of the models to 2mm x 2mm, to make it easier for others to reuse the models, and interconnect with the other modules in this library.
     - Do not worry if your design does not meet this standard; it is likely to evolve in the future.
+- Ideally, please provide individual .stl meshes of the files as well, to make it easier to index into the repository (but .step is the only one required per se).
 
 
 # Part naming scheme

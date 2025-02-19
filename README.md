@@ -38,5 +38,19 @@ Complete beginner guide for forking github repo and contributing. If you have pr
 ### Step 6: Pull Request
 - Provide a clear and concise title for the pull request.
 - Include a detailed description of the components you are contributing.
+- Rename your parts according to the [part naming scheme](part-naming-scheme), and list who (or what company/entity) should be listed as the part author in the part index (for example, Gepner et al. 2025, to indicate which paper the part is from).
 - If possible, try to standardise the outgoing fluidic connections of the models to 2mm x 2mm, to make it easier for others to reuse the models, and interconnect with the other modules in this library.
     - Do not worry if your design does not meet this standard; it is likely to evolve in the future.
+
+
+# Part naming scheme
+As the Bestiary grows, it will become important to effectively categorise, and index, all of the components. The naming and subdirectory categorisation scheme will, therefore, likely evolve over time. At present, the repository follows the convention listed below. When submitting your files, please format the files according to this format.
+
+\[X-YYYY]_Part-Name-Title-Case.step
+
+Where:
+* "X" is the type of component. At present this is "A" for actuator, "O" for oscillator, "LG" for logic gate, "MR" for monolithic robot. As you might expect, this will evolve over time.
+* "YYYY" is the unique part ID that will be assigned based on the chronological order of the submission dates.
+
+# Author attribution
+Each subdirectory contains an index of all of the components, including the ID of the first author, company, or other entity to which the authorship should be attributed to. Please remember to include this information in your submission, as outlined in the [part naming scheme](part-naming-scheme).

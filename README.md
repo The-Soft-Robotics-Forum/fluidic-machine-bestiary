@@ -48,7 +48,7 @@ Complete beginner guide for forking github repo and contributing. If you have pr
 # Part naming scheme
 As the Bestiary grows, it will become important to effectively categorise, and index, all of the components. The naming and subdirectory categorisation scheme will, therefore, likely evolve over time. At present, the repository follows the convention listed below. When submitting your files, please format the files according to this format.
 
-\[X-YYYY]\_Part-Name-Title-Case\_[\AuthordID].step
+\[X-YYYY]\_Part-Name-Title-Case\_[Authord_ID].step
 
 Where:
 * "X" is the type of component. At present this is "A" for actuator, "O" for oscillator, "LG" for logic gate, "MR" for monolithic robot. As you might expect, this will evolve over time.

@@ -12,6 +12,8 @@ The repository has been subdivided into folders for each component type (actuato
 
 The current fluidic connection standard is 2mm x 2mm square channels, due to its relative ease of manufacturing on FDM machines. Do not worry if your models do not meet this standard; it is likely to evolve in the future to cater to the community's needs.
 
+You will notice that there are also .stl meshes in the parent directory of each step file subfolder. This is because Github has a direct web view for this format. You can thus easily look up and compare the individual parts visually. Once you find what you need, you can easily locate the component's respective .step file in the dedicated folder.
+
 # Associated work
 The Flex Printer is an open-source 3D printing platform which makes printing ultra-flexible elastomers easy, reliable, and fast. It's one of the best ways to quickly get up and running, printing and experimenting with your own soft machines. You can find out more on the [Flex Printer repository](https://github.com/The-Soft-Robotics-Forum/flex-printer).
 
@@ -46,11 +48,13 @@ Complete beginner guide for forking github repo and contributing. If you have pr
 # Part naming scheme
 As the Bestiary grows, it will become important to effectively categorise, and index, all of the components. The naming and subdirectory categorisation scheme will, therefore, likely evolve over time. At present, the repository follows the convention listed below. When submitting your files, please format the files according to this format.
 
-\[X-YYYY]_Part-Name-Title-Case.step
+\[X-YYYY]\_Part-Name-Title-Case\_[\AuthordID].step
 
 Where:
 * "X" is the type of component. At present this is "A" for actuator, "O" for oscillator, "LG" for logic gate, "MR" for monolithic robot. As you might expect, this will evolve over time.
 * "YYYY" is the unique part ID that will be assigned based on the chronological order of the submission dates.
+* "AuthordID" is a shorthand ID of the author and published year that is included in the part index. This is helpful to distinguish between different parts.
+
 
 # Author attribution
 Each subdirectory contains an index of all of the components, including the ID of the first author, company, or other entity to which the authorship should be attributed to. Please remember to include this information in your submission, as outlined in the [part naming scheme](part-naming-scheme).

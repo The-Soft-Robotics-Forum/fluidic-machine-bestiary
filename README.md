@@ -17,26 +17,25 @@ You will notice that there are also .stl meshes in the parent directory of each 
 # Associated work
 The Flex Printer is an open-source 3D printing platform which makes printing ultra-flexible elastomers easy, reliable, and fast. It's one of the best ways to quickly get up and running, printing and experimenting with your own soft machines. You can find out more on the [Flex Printer repository](https://github.com/The-Soft-Robotics-Forum/flex-printer).
 
-# How to contribute
-Complete beginner guide for forking github repo and contributing. If you have prior experience, skip to [Step 6](#Step-6:-Pull-Request)
-
-### Step 1: Fork the Repo 
-1. Click the "Fork" button in the top-right corner of the page - [1](https://www.freecodecamp.org/news/how-to-fork-a-github-repository/)
-2. Chose where to fork the repository 
+## How to contribute
+This is a beginner guide for forking github repositories and contributing to project. If you have prior experience, skip to [Step 6](#step-6:-pull-request).
+### Step 1: Fork the repo
+1. Click the "Fork" button in the top-right corner of the page - [1](https://www.freecodecamp.org/news/how-to-fork-a-github-repository/).
+2. Chose where to fork the repository.
 ### Step 2: Clone your forked repo
 1. Go to your forked repo and copy the URL that appears when the green code button is clicked. 
-2.  open a terminal on your computer and run `git clone [URL]` [2](https://www.gitkraken.com/learn/git/problems/github-how-to-fork)
+2. Open a terminal on your computer and run `git clone [URL]` [2](https://www.gitkraken.com/learn/git/problems/github-how-to-fork).
 ### Step 3: Create a branch 
-1. navigate to your recently cloned repo on your pc via terminal
-2. `git checkout -b [NEW_BRANCH_NAME]` where new_branch_name is the name you wish to give your branch
+1. Navigate to your recently cloned repo on your pc via terminal.
+2. `git checkout -b [NEW_BRANCH_NAME]` where new_branch_name is the name you wish to give your branch.
 ### Step 4: Make changes 
-1. make your desired changes to the part files keep note of the voron naming scheme and be consistent 
-2.  run `git add .` 
-3. run `git commit -m "a detailed message of the changes you have made"`
-### Step 5: Push Changes and Create a pull request. 
+1. Add the new components to the appropriate subdirectory, following the [part naming scheme](part-naming-scheme). Please make sure you upload the .step file (and, optionally, an .stl mesh as well).
+2. Run `git add .`
+3. Run `git commit -m "a detailed message of the changes you have made"`
+### Step 5: Push changes and create a pull request
 1. `git push origin [NEW_BRANCH_NAME]`
-2. go to your fork on the github website and select compare and pull request
-3. fill in the pull request details 
+2. Go to your fork on the github website and select compare and pull request.
+3. Fill in the pull request details.
 ### Step 6: Pull Request
 - Provide a clear and concise title for the pull request.
 - Include a detailed description of the components you are contributing.
@@ -54,7 +53,7 @@ As the Bestiary grows, it will become important to effectively categorise, and i
 Where:
 * "X" is the type of component. At present this is "A" for actuator, "O" for oscillator, "LG" for logic gate, "MR" for monolithic robot. As you might expect, this will evolve over time.
 * "YYYY" is the unique part ID that will be assigned based on the chronological order of the submission dates.
-* "AuthordID" is a shorthand ID of the author and published year that is included in the part index. This is helpful to distinguish between different parts.
+* "Authord_ID" is a shorthand ID of the author and published year that is included in the part index. This is helpful to distinguish between different parts.
 
 
 # Author attribution
